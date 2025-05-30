@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: node-api-app
+    name: node-express-render-api
     env: node
     buildCommand: "npm install"
     startCommand: "node index.js"
